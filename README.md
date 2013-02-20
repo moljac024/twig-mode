@@ -17,4 +17,4 @@ Installation
 
 Put somewhere in load path and require it, it takes care of associating with twig files automatically:
 
-(require 'twig-mode)
+    (require 'twig-mode)
