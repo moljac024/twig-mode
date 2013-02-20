@@ -17,4 +17,5 @@ Installation
 
 Put somewhere in load path and require it, it takes care of associating with twig files automatically:
 
+    (add-to-list 'load-path "~/.emacs.d/elisp/twig-mode") ;; Replace with directory you installed in
     (require 'twig-mode)
