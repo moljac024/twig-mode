@@ -207,11 +207,11 @@
                                     (twig-indenting-keywords)
                                     )
                            word-end)) (0 font-lock-keyword-face))
-     (,(rx-to-string `(and word-start
+     (,(rx-to-string `(and symbol-start
                            ,(append '(or)
                                     (twig-builtin-keywords)
                                     )
-                           word-end)) (0 font-lock-builtin-face))
+                           symbol-end)) (0 font-lock-builtin-face))
 
      (,(rx (or "{%" "%}" "{%-" "-%}")) (0 font-lock-function-name-face t))
      (,(rx (or "{{" "}}")) (0 font-lock-type-face t))
